@@ -1,0 +1,43 @@
+.assessment{
+    position: absolute;
+    left: 10.5rem;
+    padding: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 80vh;
+    width: 88vw;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color:  #FFFFFF;
+    
+}
+.headContains
+{
+    top: 0;
+    left: 2rem;
+    width: 20rem;
+    height: 5rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+
+}
+.icon{
+    right: 2rem;
+    top: 2rem;
+    position: absolute;
+}
+.para1{
+    top: 10px;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    border-left: 2px solid;
+    height: 3rem;
+    text-align: center;
+    border-color: beige;
+}

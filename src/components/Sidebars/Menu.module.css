@@ -1,0 +1,106 @@
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 10vw;
+    background-color: white;
+    color: black;
+    
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.primebox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}  
+.dashboard{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+    
+    /* box-sizing: border-box; */
+    
+    
+}
+.assessment{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+    
+}
+
+
+.myLibrary{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+}
+.secondbox{
+    border-top: 1px dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.round{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+}
+.admin{
+    
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: small;
+    color: red;
+    border: 1px solid;
+    border-color:red;
+    border-radius: 40%;
+}
+.dashboardLink{
+    text-decoration: none;
+    
+}
+.assessmentLinkActive{
+    text-decoration: none;
+    
+}
+.myLibraryLink{
+    text-decoration: none;
+}
+.roundLink{
+    text-decoration: none;
+    text-align: center;
+}
+
